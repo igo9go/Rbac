@@ -1,0 +1,23 @@
+{
+    "name": "gundy/rbac",
+    "description": "a rbac package for laravel5",
+    "type": "library",
+    "require": {
+        "zizaco/entrust": "^1.8"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Gundy\\Rbac\\": "packages/Gundy/Rbac/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "igo9go",
+            "email": "62687565@qq.com"
+        }
+    ]
+}
